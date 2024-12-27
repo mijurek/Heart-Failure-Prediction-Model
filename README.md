@@ -1,4 +1,4 @@
-# Heart-Failure-Prediction-Model
+# Heart Failure Prediction Model
 Python Jupyter Notebook designed for predicting the likelihood of mortality in patients with heart failure. The solution leverages machine learning techniques, specifically the XGBoost classifier, along with various feature engineering and optimization strategies. The data source is the dataset available on [Keggle](https://www.kaggle.com/code/ecemboluk/heart-attack-prediction-with-classifier-algorithms/input).
 
 ## Table of Contents
