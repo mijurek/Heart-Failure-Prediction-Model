@@ -1,5 +1,5 @@
 # Heart-Failure-Prediction-Model
-Python Jupyter Notebook designed for predicting the likelihood of mortality in patients with heart failure. The solution leverages machine learning techniques, specifically the XGBoost classifier, along with various feature engineering and optimization strategies.
+Python Jupyter Notebook designed for predicting the likelihood of mortality in patients with heart failure. The solution leverages machine learning techniques, specifically the XGBoost classifier, along with various feature engineering and optimization strategies. The data source is the dataset available on [Keggle](https://www.kaggle.com/code/ecemboluk/heart-attack-prediction-with-classifier-algorithms/input).
 
 ## Table of Contents
 - [Overview](#overview)
@@ -102,15 +102,21 @@ The trained model achieved the following metrics on the test set:
 
 ## Visualizations
 
-Class Distribution:
+**Learning Curve**<br/><br/>
+![Learning Curve](https://raw.githubusercontent.com/mijurek/Heart-Failure-Prediction-Model/refs/heads/main/learning_curve.png)
+<br/>
 
-Learning Curve:
+**Feature Importance**<br/><br/>
+![Feature Importance](https://raw.githubusercontent.com/mijurek/Heart-Failure-Prediction-Model/refs/heads/main/feature_importane.png)
+<br/>
 
-Feature Importance:
+**SHAP Summary Plot**<br/><br/>
+![SHAP Summary Plot](https://raw.githubusercontent.com/mijurek/Heart-Failure-Prediction-Model/refs/heads/main/shap.png)
+<br/>
 
-SHAP Summary Plot:
-
-Confusion Matrix:
+**Confusion Matrix**<br/><br/>
+![Confusion Matrix](https://raw.githubusercontent.com/mijurek/Heart-Failure-Prediction-Model/refs/heads/main/cm.png)
+<br/>
 
 ---
 
